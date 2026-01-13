@@ -18,7 +18,10 @@ server/temp/
 
 # Test files (may contain API keys)
 server/test-*.js
-
+server/list-*.js
+server/find-*.js
+server/debug-*.js
+server/check-env.js
 
 # IDE
 .vscode/
