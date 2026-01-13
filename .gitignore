@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables (contains API keys - DO NOT COMMIT)
+.env
+.env.local
+.env.*.local
+
+
+# Build output
+dist/
+build/
+
+# Temporary files
+server/temp/
+*.log
+
+# Test files (may contain API keys)
+server/test-*.js
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,97 @@
+{
+  "courseCode": "UCS310",
+  "timestamp": 1768306751042,
+  "result": {
+    "topQuestions": [
+      {
+        "topic": "Introduction to DBMS",
+        "subtopic": "File System vs DBMS",
+        "text": "Explain the following with suitable examples: d) File System vs. Database System",
+        "frequency": 2,
+        "years": [
+          "2024",
+          "2025"
+        ]
+      },
+      {
+        "topic": "DBMS Architecture",
+        "subtopic": "Three-Level Architecture",
+        "text": "Explain the following with suitable examples: a) Three levels of data abstractions in DBMS",
+        "frequency": 2,
+        "years": [
+          "2024",
+          "2025"
+        ]
+      },
+      {
+        "topic": "ER Modeling",
+        "subtopic": "ER to Relational Schema Mapping",
+        "text": "Convert the ER cl.agram to corresponding relational schemas with minimum number of tables. Specify the primary key and foreign key attributes in each relational schema.",
+        "frequency": 3,
+        "years": [
+          "2024",
+          "2025",
+          "2025_Sep"
+        ]
+      },
+      {
+        "topic": "Functional Dependencies & Normalization",
+        "subtopic": "Candidate Keys",
+        "text": "Find out candidate key(s) for the relation R using closure property. List down all the non-prime attributes for the relation R.",
+        "frequency": 3,
+        "years": [
+          "2024",
+          "2025",
+          "2025_Sep"
+        ]
+      },
+      {
+        "topic": "Relational Model",
+        "subtopic": "Referential Integrity",
+        "text": "Explain referential integrity constraint that must be maintained during insertion, deletion, and updating of records in tables. How do cascading actions affect data integrity in relational databases?",
+        "frequency": 2,
+        "years": [
+          "2025",
+          "2025_Sep"
+        ]
+      }
+    ],
+    "topicWeightage": [
+      {
+        "name": "Functional Dependencies & Normalization",
+        "count": 5,
+        "percentage": 21.74
+      },
+      {
+        "name": "ER Modeling",
+        "count": 5,
+        "percentage": 21.74
+      },
+      {
+        "name": "SQL",
+        "count": 4,
+        "percentage": 17.39
+      },
+      {
+        "name": "DBMS Architecture",
+        "count": 3,
+        "percentage": 13.04
+      },
+      {
+        "name": "Relational Model",
+        "count": 3,
+        "percentage": 13.04
+      },
+      {
+        "name": "Introduction to DBMS",
+        "count": 2,
+        "percentage": 8.7
+      },
+      {
+        "name": "Relational Algebra",
+        "count": 1,
+        "percentage": 4.35
+      }
+    ]
+  }
+}

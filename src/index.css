@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 font-sans antialiased overflow-x-hidden dark:bg-[#050505] dark:text-white transition-colors duration-300;
+  }
+}
+
+/* ... existing code ... */
+
+:root {
+  --bg-grid: rgba(99, 102, 241, 0.05);
+  --fg-formula: rgba(99, 102, 241, 0.25);
+}
+
+.dark {
+  --bg-grid: rgba(255, 255, 255, 0.08);
+  --fg-formula: rgba(255, 255, 255, 0.3);
+}
+
+
+@layer components {
+
+  /* NotesBuddy Button Styles */
+  .btn-solid {
+    @apply px-8 py-3 bg-black text-white rounded-full font-semibold transition-all duration-300 hover:bg-gray-800 hover:shadow-lg transform hover:-translate-y-0.5 flex items-center justify-center gap-2 dark:bg-white dark:text-black dark:hover:bg-gray-200;
+  }
+
+  .btn-outline {
+    @apply px-8 py-3 bg-white text-black border-2 border-black rounded-full font-semibold transition-all duration-300 hover:bg-gray-50 hover:shadow-lg transform hover:-translate-y-0.5 flex items-center justify-center gap-2 dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white/10;
+  }
+
+  /* Clean Input Style */
+  .input-clean {
+    @apply w-full px-6 py-4 bg-white border-2 border-gray-200 rounded-2xl text-gray-900 placeholder-gray-400 focus:border-black focus:outline-none transition-all duration-300 text-lg shadow-sm dark:bg-[#0a0a0a] dark:border-gray-900 dark:text-white dark:placeholder-gray-500 dark:focus:border-white;
+  }
+
+  /* Glass Card */
+  .glass-card {
+    @apply bg-white border border-gray-100 shadow-xl dark:bg-gray-800/50 dark:border-gray-700;
+  }
+
+  /* Loading Spinner */
+  .spinner {
+    @apply w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin;
+  }
+}
+
+/* Custom Text Selection */
+::selection {
+  @apply bg-black/10 text-black dark:bg-white/20 dark:text-white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full hover:bg-gray-500 dark:bg-gray-600 dark:hover:bg-gray-500;
+}
